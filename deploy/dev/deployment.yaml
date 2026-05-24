@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: ghcr.io/chanjinyeon/ci-cd-test:latest # 만든 이미지 사용
+          image: ghcr.io/chanjinyeon/ci-cd-test:1759f2d
           ports:
             - containerPort: 8080
